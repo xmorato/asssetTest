@@ -3,7 +3,7 @@
 This app help us to identify assets - keys starting from .png file and .json.
 It uses a http-server, [more info](https://www.npmjs.com/package/local-web-server)
 #### Requirements
-Copy files (png & json) to test into /assets/sprites folder
+Create /assets/sprites and copy files (png & json) into it.
 
 #### Setup
 `npm install`
