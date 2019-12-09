@@ -9,7 +9,7 @@ Copy files (png & json) to test into /assets/sprites folder
 `npm install`
 
 
-####Commands:
+#### Commands:
 
 `npm start` - start the server
 
