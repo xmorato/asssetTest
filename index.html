@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>KEY ASSET IDENTIFIER</title>
+    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <script type="text/javascript" src="js/phaser.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="grid-container">
+    <div class="user grid-item" align="center">
+        <h2> PNG-JSON ASSET-KEY IDENTIFIER</h2>
+        <span id="fileName">
+            <input type="file" id="input" name="foo" multiple onchange="handleFiles(this.files)"> Add files here
+        </span>
+    </div>
+    <div class="grid-item">
+        <div id="phaser"></div>
+    </div>
+    <div class="grid-item" id="results">
+    </div>
+</div>
+</body>
+</html>

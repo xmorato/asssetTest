@@ -1,0 +1,25 @@
+{
+  "name": "assettester",
+  "version": "1.0.0",
+  "description": "Correlation between JSON & PNG spritesheet file",
+  "main": "main.js",
+  "private": true,
+  "mode": "production",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ws --spa index.html",
+    "server": "webpack-dev-server --mode development --open",
+    "prod_build": "webpack --mode production"
+  },
+  "author": "HTML5 Team IX",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "lodash": "^4.17.15",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

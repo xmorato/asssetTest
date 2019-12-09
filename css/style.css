@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: rgba(255, 110, 19, 0.8);
+    text-shadow: #676467 1px 1px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #3c3c3c;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(60, 60, 60, 0.8);
+    border: 1px solid rgba(255, 88, 33, 0.8);
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: ghostwhite;
+}
+
+.user {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.list-item {
+    height: 40px;
+    line-height: 40px;
+    border: 1px transparent solid;
+}
+
+.list-item:hover {
+    background-color: #ff4b4c;
+    border: #555353 1px solid;
+    cursor: zoom-in;
+}
+
+.list-item.selected {
+    background-color: #ff4b4c;
+    border: #555353 1px dot-dash;
+}
