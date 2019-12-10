@@ -11,6 +11,6 @@ Copy files (png & json) to test into /assets/sprites folder
 
 #### Commands:
 
-`npm start` - start the server
+`npm start` - start the server and runs de app
 
 `npm test` - not yet, but soon available ;)
